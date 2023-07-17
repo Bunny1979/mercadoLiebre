@@ -22,6 +22,7 @@ app.listen(process.env.PORT, () => {
   console.log(
     "Servidor escuchando en puerto " +
       process.env.PORT +
-      "| http://localhost:3000"
+      "| http://localhost:3000" +
+      process.env.PORT
   );
 });
